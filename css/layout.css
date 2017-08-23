@@ -178,6 +178,10 @@ ul#nav li a {
 	transition: color .2s ease-in-out;
 }
 
+.responsive-headline {
+   height: 200px;
+}
+
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
 

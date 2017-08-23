@@ -9,6 +9,14 @@
 /*----------------------------------------------------*/
 /* FitText Settings
 ------------------------------------------------------ */
+   var typed = new Typed('.responsive-headline', {
+                  strings: [
+                     "Hello.",
+                     "I'm Hoang Nguyen."],
+                  typeSpeed: 100,
+                  backSpeed: 100,
+                  loop: true
+   });
 
     setTimeout(function() {
 	   $('h1.responsive-headline').fitText(1, { minFontSize: '40px', maxFontSize: '90px' });
@@ -87,12 +95,7 @@
 	      nav.fadeOut('fast');
 	   }
       else {
-         if (y < h*.20) {
-            nav.removeClass('opaque').fadeIn('fast');
-         }
-         else {
-            nav.addClass('opaque').fadeIn('fast');
-         }
+         nav.addClass('opaque').fadeIn('fast');
       }
 
 	});
