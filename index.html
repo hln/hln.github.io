@@ -48,9 +48,9 @@
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
             <li><a class="smoothscroll" href="#resume">About</a></li>
 	         <li><a class="smoothscroll" href="#about">Resume</a></li>
-            <!-- <li><a class="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li> -->
+            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+            <!-- <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>  -->
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
@@ -276,9 +276,182 @@
 
    </section> <!-- Resume Section End-->
 
+   <section id="portfolio">
 
-   <!-- Portfolio Section
-   ================================================== -->
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of my Projects.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/shell.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Shell</h5>
+                              <p>C (Systems)</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/overflow.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Overflow</h5>
+                              <p>C (Systems)</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/blend.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Blend</h5>
+                              <p>Node | Express | HTML &amp | MySQL (Full-Stack)</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/maps.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Maps</h5>
+                              <p>Java | JavaScript | HTML &amp CSS (Full-Stack)</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/shell.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Shell</h4>
+			      <p>
+                  Implemented a light-weight, fully-functional interpreted UNIX shell in the C programming language.
+                  Primary features include: system calls (i.e. cd, ln, rm, exit) and external program calls,
+                  file redirection, and basic foreground and background processes controls system (i.e. signals).
+               </p>
+		      </div>
+
+            <div class="link-box">
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/overflow.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Buffer Overflow</h4>
+			      <p>
+                  Successfully executed a Buffer Overflow security exploit on an C executable, causing it
+                  to perform unanticpated behavior. Learned about x86-64 calling conventions and stack
+                  organization. Using gdb, we analyzed the return addresses of several functions within
+                  the executable, allowing us to craft an input string, reversed engineered using
+                  built-in tools such as gcc and objdump.
+               </p>
+		      </div>
+
+            <div class="link-box">
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/blend.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Blend</h4>
+			      <p>
+                  Worked in a group of 4 to implement Blend - Borrow and Lend, a modern web application
+                  that allows users to lease items for others to borrow. The application runs off an
+                  Express server with a MySQL server. Socket.io was also used to emulate Venmo's realtime
+                  feature of payment notifications.
+
+                  Responsibilities included database schema design,
+                  syncing Express routes with interactions on the database, and some front-end development.
+               </p>
+               <span class="categories"><i class="fa fa-tag"></i>
+                  <a href="http://blendproject.herokuapp.com">Visit Blend Here!</a>
+               </span>
+		      </div>
+
+            <div class="link-box">
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/maps.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Maps</h4>
+			      <p>
+                  Collaborated with another student to develop a rendition of Google Maps, localized
+                  to Providence, Rhode Island. Features included Dijkstra's | A* smart, optimal path finder,
+                  autocorrect address lookup, and multithreaded support.
+               </p>
+		      </div>
+
+            <div class="link-box">
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+
+      </div> <!-- row End -->
+
+   </section>
+   <!-- Portfolio Section End-->
+
+
+
+
+
+
 
    <!-- footer
    ================================================== -->
@@ -306,7 +479,8 @@
 
       </div>
 
-   </footer> <!-- Footer End-->
+   </footer>
+   <!-- Footer End-->
 
    <!-- Java Script
    ================================================== -->
