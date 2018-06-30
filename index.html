@@ -1,508 +1,166 @@
-<!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-   <!--- Basic Page Needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>Hoang Nguyen</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-   <!-- Mobile Specific Metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
 
-	<!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-   <!-- Script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
-   <script src="js/typed.js"></script>
+    <title>Hoang Nguyen</title>
 
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
+    <style>
+        hr {
+            -webkit-transition: width 1s ease-out;
+            transition: width 1s ease-out;
+            width: 0%;
+        }
 
+        .grow {
+            width: 30%;
+        }
+
+        #last-name {
+            color: #c8e6c9;
+            font-weight: bold;
+        }
+
+        #first-name {
+            color: white;
+            font-weight: 100;
+        }
+
+        i {
+            position: relative;
+            top: 5px;
+        }
+
+        .social-media {
+            margin: 9px;
+        }
+
+        .tabs .indicator {
+            background-color: #66bb6a;
+        }
+
+        .tab > * {
+            color: #66bb6a!important;
+        }
+
+        .tab a.active {
+            background-color: #c8e6c9!important;
+        }
+
+        body {
+            background-image: url("img/profile_pic3.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+
+        #home {
+            width: 84%;
+        }
+    </style>
 </head>
 
 <body>
-
-   <!-- Header
-   ================================================== -->
-   <header id="home">
-
-      <nav id="nav-wrap" class="opaque">
-
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#resume">About</a></li>
-	         <li><a class="smoothscroll" href="#about">Resume</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
-            <!-- <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>  -->
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
-
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline"></h1>
-            <hr>
-            <ul class="social">
-               <li><a href="https://twitter.com/hlnatlast"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://linkedin.com/in/hlnatlast"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://github.com/hlnatlast"><i class="fa fa-github"></i></a></li>
-               <li><a href="https://plus.google.com/112943736089266641020/palette"><i class="fa fa-google-plus"></i></a></li>
-            </ul>
-         </div>
-      </div>
-
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
-
-   </header> <!-- Header End -->
-
-
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
-
-      <div class="row">
-
-         <div class="three columns">
-
-            <img class="profile-pic"  src="images/profile_pic_small.png" alt="" />
-
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row">
-
-               <div class="columns contact-details">
-
-                  <h2>Contact Details</h2>
-                  <p class="address">
-						   <span>Hoang Nguyen</span><br>
-						   <span>69 Brown Street P.O 2518<br>
-						         Providence, RI 02912 US
-                     </span><br>
-						   <span>704-724-1964</span><br>
-                     <span>Hoang_Nguyen@brown.edu</span>
-					   </p>
-
-               </div>
-
-               <div class="columns download">
-                  <p>
-                     <a href="./hoang_nguyen.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div>
-
-            </div> <!-- end row -->
-
-         </div> <!-- end .main-col -->
-
-      </div>
-
-   </section> <!-- About Section End-->
-
-
-   <!-- Resume Section
-   ================================================== -->
-   <section id="resume">
-
-      <!-- Education
-      ----------------------------------------------- -->
-      <div class="row education">
-
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Brown University</h3>
-                  <p class="info">ScB in Computer Science <span>&bull;</span> <em class="date">May 2018</em></p>
-
-                  <p>
-                    I am currently a senior expecting to graduate from <b>Brown University in May 2018</b> with a Bachelor's of
-                    Science degree in Computer Science. I am actively seeking a full-time position upon graduation
-                    that will allow me to employ the breadth of essential concepts I've amassed over the years
-                    in the software engineering industry. I am particularly interested in developing applications
-                    and services over the web and across the stack and paying close attention to the users' feedback.
-                  </p>
-
-                  <p>
-                    I have been formally trained to come up with intuitive explanations in order to reduce
-                    the most difficult concepts into smaller, more meaningful ones. After all,
-                    "the first principle is that you must not fool yourself — and you are the easiest person to fool."
-                  </p>
-                  <p>
-                    Besides my passion for the web, I've recently picked up another interest: machine learning and learning theory.
-                    In fact, my senior capstone will be in <b>Deep Learning</b>, where my project focuses on applying concepts
-                    borrowed from <b>Transfer Learning</b> in order to transfer different styles in a range of styles
-                    to different items in a domain of input.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Education -->
-
-
-      <!-- Work
-      ----------------------------------------------- -->
-      <div class="row work">
-
-         <div class="three columns header-col">
-            <h1><span>Experience</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>The MathWorks</h3>
-                  <p class="info">Natick, MA<span>&bull;</span> <em class="date">Summer 2017</em></p>
-
-                  <p>
-                     Worked with the MATLAB External Interfaces | API Team on the RESTFUL Engine API.
-                     Implemented in C++, the engine utilizes MATLAB Connector Services, an RPC framework,
-                     to allow users and developers to interact with MATLAB remotely.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Brown University | Serre Lab</h3>
-                  <p class="info">Providence, RI <span>&bull;</span> <em class="date">March 2017 - May 2017</em></p>
-
-                  <p>
-                     Worked as a web developer with neuroscience PhD students on the Brown
-                     Automated Behavioral Annotation System (BABAS), a video annotation tool
-                     used to help dynamically label components for training a machine learning
-                     model.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Brown University | Department of Computer Science</h3>
-                  <p class="info">Providence, RI<span>&bull;</span> <em class="date">January 2017 - May 2017</em></p>
-
-                  <p>
-                     Worked as a Teaching Assistant for CSCI 1320: Modern Web Applications, an upper-level
-                     computer science course Brown University designed to teach students how to design and implement
-                     large scale web applications.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Twitter</h3>
-                  <p class="info">San Francisco, CA<span>&bull;</span> <em class="date">Summer 2016</em></p>
-
-                  <p>
-                     Worked closely with Twitter engineers and developer advocates on Android using the
-                     mobile developer platform: Fabric.io.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-
-
-      </div> <!-- End Work -->
-
-
-      <!-- Skills
-      ----------------------------------------------- -->
-      <div class="row skill">
-
-         <div class="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-				<div class="bars">
-
-				   <ul class="skills">
-					   <li><span class="bar-expand java"></span><em>Java</em></li>
-                  <li><span class="bar-expand javascript"></span><em>JavaScript</em></li>
-						<li><span class="bar-expand node"></span><em>NodeJs | Express</em></li>
-						<li><span class="bar-expand htmlcss"></span><em>HTML | CSS</em></li>
-						<li><span class="bar-expand python"></span><em>Python</em></li>
-                  <li><span class="bar-expand cpp"></span><em>C &amp C++</em></li>
-					</ul>
-
-				</div><!-- end skill-bars -->
-
-			</div> <!-- main-col end -->
-
-      </div> <!-- End skills -->
-
-   </section> <!-- Resume Section End-->
-
-   <section id="portfolio">
-
-      <div class="row">
-
-         <div class="twelve columns collapsed">
-
-            <h1>Check Out Some of my Projects.</h1>
-
-            <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-
-          	   <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-01" title="">
-                        <img alt="" src="images/portfolio/shell.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Shell</h5>
-                              <p>C (Systems)</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/overflow.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Overflow</h5>
-                              <p>C (Systems)</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-03" title="">
-                        <img alt="" src="images/portfolio/blend.png">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Blend</h5>
-                              <p>Node | Express | HTML &amp | MySQL (Full-Stack)</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-04" title="">
-                        <img alt="" src="images/portfolio/maps.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Maps</h5>
-                              <p>Java | JavaScript | HTML &amp CSS (Full-Stack)</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-
-         <div id="modal-01" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/shell.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Shell</h4>
-			      <p>
-                  Implemented a light-weight, fully-functional interpreted UNIX shell in the C programming language.
-                  Primary features include: system calls (i.e. cd, ln, rm, exit) and external program calls,
-                  file redirection, and basic foreground and background processes controls system (i.e. signals).
-               </p>
-		      </div>
-
-            <div class="link-box">
-		         <a class="popup-modal-dismiss">Close</a>
+    <div class="container">
+        <a href="" class="sidenav-trigger hide-on-med-and-up" data-target="mobile-links">
+            <i class="material-icons">menu</i>
+        </a>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col s12">
+                <ul class="tabs hide-on-small-only">
+                    <li class="tab col s4">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="tab col s4">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="tab col s4">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
+        </div>
 
-	      </div><!-- modal-01 End -->
+        <ul class="sidenav" id="mobile-links">
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">Projects</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+        </ul>
 
-         <div id="modal-02" class="popup-modal mfp-hide">
+        <h1 class="center-align">
+            <span id="first-name">Hoang</span>
+            <span id="last-name">Nguyen</span>
+        </h1>
+        <hr>
+        <br>
+        <h5 class="center-align">Software Engineer @ Qualtrics</h5>
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/overflow.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Buffer Overflow</h4>
-			      <p>
-                  Successfully executed a Buffer Overflow security exploit on an C executable, causing it
-                  to perform unanticpated behavior. Learned about x86-64 calling conventions and stack
-                  organization. Using gdb, we analyzed the return addresses of several functions within
-                  the executable, allowing us to craft an input string, reversed engineered using
-                  built-in tools such as gcc and objdump.
-               </p>
-		      </div>
-
-            <div class="link-box">
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-02 End -->
-
-         <div id="modal-03" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/blend.png" alt="" />
-
-		      <div class="description-box">
-			      <h4>Blend</h4>
-			      <p>
-                  Worked in a group of 4 to implement Blend - Borrow and Lend, a modern web application
-                  that allows users to lease items for others to borrow. The application runs off an
-                  Express server with a MySQL server. Socket.io was also used to emulate Venmo's realtime
-                  feature of payment notifications.
-
-                  Responsibilities included database schema design,
-                  syncing Express routes with interactions on the database, and some front-end development.
-               </p>
-               <span class="categories"><i class="fa fa-tag"></i>
-                  <a href="http://blendproject.herokuapp.com">Visit Blend Here!</a>
-               </span>
-		      </div>
-
-            <div class="link-box">
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-03 End -->
-
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/maps.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Maps</h4>
-			      <p>
-                  Collaborated with another student to develop a rendition of Google Maps, localized
-                  to Providence, Rhode Island. Features included Dijkstra's | A* smart, optimal path finder,
-                  autocorrect address lookup, and multithreaded support.
-               </p>
-		      </div>
-
-            <div class="link-box">
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-04 End -->
+        <div class="center-align">
+            <a href="https://linkedin.com/in/hlnatlast">
+                <i class="social-media fa fa-linkedin-square" style="font-size:36px; color: #ffd54f;"></i>
+            </a>
+            <a href="https://twitter.com/hlnatlast">
+                <i class="social-media fa fa-twitter-square" style="font-size:36px; color: #ffd54f;"></i>
+            </a>
+            <a href="https://github.com/hln">
+                <i class="social-media fa fa-github-square" style="font-size:36px; color: #ffd54f;"></i>
+            </a>
+        </div>
 
 
-      </div> <!-- row End -->
+        <div id="home" class="scrollspy section">
+            <h4>Hey there!</h4>
+            <p>My name is Hoang Nguyen, and I'm currently a
+                <span style="color: #ffd54f;">full-stack</span> software engineer on the
+                <span style="color: #ffd54f;">Experience Management Platform (XMP) </span>
+                <i class="material-icons">bar_chart</i> team at Qualtrics. I graduated from
+                <span style="color: #ffd54f;">Brown University</span>
+                <i class="material-icons">school</i> in May 2018 with a Bachelor's degree in Computer Science
+                <i class="material-icons">computer</i>.
+            </p>
 
-   </section>
-   <!-- Portfolio Section End-->
+
+        </div>
+        <div id="projects" class="scrollspy section">
+            Check in later
+        </div>
+        <div id="contact" class="scrollspy section">
+            Check in later
+        </div>
+    </div>
 
 
+    <!-- jQuery Import -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 
-
-
-
-   <!-- footer
-   ================================================== -->
-   <footer id="contacts">
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="social-links">
-               <li><a href="https://twitter.com/hlnatlast"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://linkedin.com/in/hlnatlast"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://github.com/hlnatlast"><i class="fa fa-github"></i></a></li>
-               <li><a href="https://plus.google.com/112943736089266641020/palette"><i class="fa fa-google-plus"></i></a></li>
-            </ul>
-
-            <ul class="copyright">
-               <li>&copy; Copyright 2014 CeeVee</li>
-               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
-            </ul>
-
-         </div>
-
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
-      </div>
-
-   </footer>
-   <!-- Footer End-->
-
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
-
+    <script>
+        $('.tabs').tabs();
+        $('.sidenav').sidenav();
+        $('hr').addClass('grow');
+        $('.scrollspy').scrollSpy();
+    </script>
 </body>
 
 </html>
