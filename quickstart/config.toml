@@ -1,4 +1,75 @@
 baseURL = "https://hln.github.io/"
 languageCode = "en-us"
 title = "hln"
-theme = "minima"
+theme = "hugo-coder-portfolio"
+
+paginate = 20 # Default number of pages per page in pagination.
+
+pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
+pygmentscodefences = true # Enable code fence background highlighting.
+pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
+pygmentsUseClasses = true # new add
+
+disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
+
+[params] # theme parameters
+    author = "Hoang Nguyen"
+    info = "Money and Assets Engineer @ Credit Karma"
+    description = "Yusuke Ishimi's personal website" # Site description.
+    keywords = "blog,developer,personal" # Site keywords.
+    avatarurl = "images/avatar.jpg" # Contain the path of the optional avatar in the static folder.
+
+    # Whether you want to hide copyright and credits in the footer.
+    hideCredits = false
+    hideCopyright = false
+
+    # Custom CSS
+    custom_css = []
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    # Bottom sns share
+    snsShare = true # new add
+    # Popular sns share
+    # if you want add sns. please message!
+    # enableTwitterShare = true  # new add
+    # enableFacebookShare = true # new add
+    # enableHatenaShare = true   # new add
+    # enableLineShare = true     # new add
+    # enableLinkedInShare = true # new add
+
+    thumbnail = "images/tn.png" # default sns thumbnail
+
+    # Multilanguage mode
+    langseparator = "|" # Separates menus from language selectors when site is multilingual.
+
+# Social links
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 3
+    url = "https://www.linkedin.com/in/iamhln/"
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/hln/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 2
+    url = "https://twitter.com/hlnatlast/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "posts"
+#[[menu.main]]
+#    name = "About"
+#    weight = 2
+#    url = "about"
