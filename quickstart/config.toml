@@ -1,0 +1,4 @@
+baseURL = "https://hln.github.io/"
+languageCode = "en-us"
+title = "hln"
+theme = "minima"
