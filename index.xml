@@ -6,7 +6,20 @@
     <description>Recent content on hln</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jul 2021 20:38:00 -0400</lastBuildDate><atom:link href="https://hln.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Sep 2021 22:29:52 -0400</lastBuildDate><atom:link href="https://hln.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Type Classes in Scala</title>
+      <link>https://hln.github.io/posts/intro-type-classes/</link>
+      <pubDate>Mon, 20 Sep 2021 22:29:52 -0400</pubDate>
+      
+      <guid>https://hln.github.io/posts/intro-type-classes/</guid>
+      <description>Introduction A quick Google search of type class may yield the following (arguably vague / abstract) phrases or definitions:
+  Retroactive extension or retroactive / ad-hoc polymorphism
+  Decoupling type definition from associated type methods
+  In this post, I hope to distill these ideas a bit and provide a soft introduction to type classes and how they&amp;rsquo;re defined and used in Scala.
+Definition In short, type classes are a way associating desired functionality to some type; these types may be native Scala types (e.</description>
+    </item>
+    
     <item>
       <title>My First Post</title>
       <link>https://hln.github.io/posts/my-first-post/</link>
