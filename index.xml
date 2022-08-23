@@ -6,7 +6,16 @@
     <description>Recent content on hln</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Sep 2021 22:29:52 -0400</lastBuildDate><atom:link href="https://hln.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Aug 2022 22:41:04 -0400</lastBuildDate><atom:link href="https://hln.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tagless Final: Separating a Program&#39;s Logic From its Interpretation</title>
+      <link>https://hln.github.io/posts/on-tagless-final/</link>
+      <pubDate>Sun, 21 Aug 2022 22:41:04 -0400</pubDate>
+      
+      <guid>https://hln.github.io/posts/on-tagless-final/</guid>
+      <description>The Premise Suppose you are tasked with implementing a basic to-do application in Scala from scratch; the specifics of this application are not so important at this point, but one way or another, you and the team arrive to the same conclusion that the application must be able to support some persistence capabilities. To that end, you go to the drawing board and brainstorm the following trait expressing some intended persistence functionalities:</description>
+    </item>
+    
     <item>
       <title>Introduction to Type Classes in Scala</title>
       <link>https://hln.github.io/posts/intro-type-classes/</link>
