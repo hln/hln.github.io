@@ -2,17 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on hln</title>
-    <link>http://localhost:5500/posts/</link>
+    <link>https://hln.github.io/posts/</link>
     <description>Recent content in Posts on hln</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jul 2021 20:38:00 -0400</lastBuildDate><atom:link href="http://localhost:5500/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Aug 2022 22:41:04 -0400</lastBuildDate><atom:link href="https://hln.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tagless Final: Separating a Program&#39;s Logic From its Interpretation</title>
+      <link>https://hln.github.io/posts/on-tagless-final/</link>
+      <pubDate>Sun, 21 Aug 2022 22:41:04 -0400</pubDate>
+      
+      <guid>https://hln.github.io/posts/on-tagless-final/</guid>
+      <description>The Premise Suppose you are tasked with implementing a basic to-do application in Scala from scratch; the specifics of this application are not so important at this point, but one way or another, you and the team arrive to the same conclusion that the application must be able to support some persistence capabilities. To that end, you go to the drawing board and brainstorm the following trait expressing some intended persistence functionalities:</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Type Classes in Scala</title>
+      <link>https://hln.github.io/posts/intro-type-classes/</link>
+      <pubDate>Mon, 20 Sep 2021 22:29:52 -0400</pubDate>
+      
+      <guid>https://hln.github.io/posts/intro-type-classes/</guid>
+      <description>Introduction A quick Google search of type class may yield the following (arguably vague / abstract) phrases or definitions:
+  Retroactive extension or retroactive / ad-hoc polymorphism
+  Decoupling type definition from associated type methods
+  In this post, I hope to distill these ideas a bit and provide a soft introduction to type classes and how they&amp;rsquo;re defined and used in Scala.
+Definition In short, type classes are a way associating desired functionality to some type; these types may be native Scala types (e.</description>
+    </item>
+    
     <item>
       <title>My First Post</title>
-      <link>http://localhost:5500/posts/my-first-post/</link>
+      <link>https://hln.github.io/posts/my-first-post/</link>
       <pubDate>Thu, 22 Jul 2021 20:38:00 -0400</pubDate>
       
-      <guid>http://localhost:5500/posts/my-first-post/</guid>
+      <guid>https://hln.github.io/posts/my-first-post/</guid>
       <description>First post test!</description>
     </item>
     

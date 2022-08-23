@@ -2,17 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:5500/</loc>
+    <loc>https://hln.github.io/</loc>
+    <lastmod>2022-08-21T22:41:04-04:00</lastmod>
+  </url><url>
+    <loc>https://hln.github.io/posts/</loc>
+    <lastmod>2022-08-21T22:41:04-04:00</lastmod>
+  </url><url>
+    <loc>https://hln.github.io/posts/on-tagless-final/</loc>
+    <lastmod>2022-08-21T22:41:04-04:00</lastmod>
+  </url><url>
+    <loc>https://hln.github.io/posts/intro-type-classes/</loc>
+    <lastmod>2021-09-20T22:29:52-04:00</lastmod>
+  </url><url>
+    <loc>https://hln.github.io/posts/my-first-post/</loc>
     <lastmod>2021-07-22T20:38:00-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:5500/posts/my-first-post/</loc>
-    <lastmod>2021-07-22T20:38:00-04:00</lastmod>
+    <loc>https://hln.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:5500/posts/</loc>
-    <lastmod>2021-07-22T20:38:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:5500/categories/</loc>
-  </url><url>
-    <loc>http://localhost:5500/tags/</loc>
+    <loc>https://hln.github.io/tags/</loc>
   </url>
 </urlset>
